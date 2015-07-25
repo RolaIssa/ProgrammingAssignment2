@@ -1,7 +1,8 @@
-#The makeCacheMatrix function sets the inverse matrix to Null.
-#Sets x to matrix input by the user
-#Gets the matrix details
-#Sets and gets inverse of the matrix
+#The makeCacheMatrix() function sets the inverse matrix(inv parameter) to Null. 
+# Return a list with 4 functions as elements. (1) The set function: sets x to the matrix input by the user. 
+# (2) The get function Gets the matrix details 
+# (3) setinverse function : set the inv parameter with the matrix inverse.
+# (4) getinverse : return the inv parameter 
 
 makeCacheMatrix <- function(x = matrix()) {
 	inv <- NULL
@@ -18,10 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 }
 
-#CacheSolve reads the matrix provided, checks if the inverse is already calcuated, if yes, 
-
-#retrieves value from the cache, else calculates the inverse of the matrix.
-
+# CacheSolve take as input a list of  "makeCacheMatrix" which includes the matrix provided, checks if the inverse is already calcuated,
+#  if yes,  get  value from the cache with this message  "getting cached data", else calculates the inverse of the matrix.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'

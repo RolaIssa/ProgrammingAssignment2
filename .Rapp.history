@@ -1,0 +1,282 @@
+data(mtcars)
+?bpxplot
+?boxplot
+boxplot(data=mtcars,formula = mpg ~ cyl)
+boxplot(mtcars,formula = mpg ~ cyl)
+boxplot(formula = mpg ~ cyl, data = mtcars)
+hist(mtcars$mpg)
+source("http://d396qusza40orc.cloudfront.net/rprog%2Fscripts%2Fsubmitscript1.R")
+submit()
+if(x>3)
+{}
+if(x>3) {y<-10}else{y<-0}
+x=0if(x>3) {y<-10}else{y<-0}
+x=0 if(x>3) {y<-10}else{y<-0}
+x<-0 if(x>3) {y<-10}else{y<-0}
+x<-0
+if(x>3) {y<-10}else{y<-0}
+y<- if(x>3) {y<-10}else{y<-0}
+y<- if(x>3) {10}else{0}
+y
+for( in in 1:10) {print(i)}
+for( i in 1:10) {print(i)}
+x<-c("a","b","c","d")
+for(i in 1:4) {print x[i]}
+for(i in 1:4) {print(x[i])}
+for(i in seq_along(x)) {print(x[i])}
+for(letter in x) {print(letter))}
+for(letter in x) {print(letter)}
+for(i in 1:4) print(x[i])
+x<-matrix(1:6,2,3)
+for(i in seq_len(nrow(x))){}
+for(i in seq_len(nrow(x))){
+for(j in seq_len(rcol(x))){print(x[i,j])}}
+for(i in seq_len(nrow(x))){ #
++ for(j in seq_len(ncol(x))){print(x[i,j])}}
+for(i in seq_len(nrow(x))){ #
+ for(j in seq_len(ncol(x))){print(x[i,j])}}
+x<-matrix[1:6,2,3]#
+for(i in seq_len(nrow(x))){ #
+ for(j in seq_len(ncol(x))){#
+   print(x[i,j])#
+ }#
+}
+x<-matrix(1:6,2,3)#
+for(i in seq_len(nrow(x))){ #
+ for(j in seq_len(ncol(x))){#
+   print(x[i,j])#
+ }#
+}
+z<-5
+while(z>=3&&z<=10){
+print(z)
+coin<-rbinom(1,1,0.5)
+if(coin==1){z<-z+11} else{z<-z-1}}
+while(z>=3&&z<=10){#
++ print(z)#
++ coin<-rbinom(1,1,0.5)#
++ if(coin==1){z<-z+11} else{z<-z-1}}
+z
+z<-5
+while(z>=3&&z<=10){#
++ print(z)#
++ coin<-rbinom(1,1,0.5)#
++ if(coin==1){z<-z+11} else{z<-z-1}}
+while(z>=3&&z<=10){#
+ print(z)#
+ coin<-rbinom(1,1,0.5)#
+ if(coin==1){z<-z+11} else{z<-z-1}}
+iris
+library(datasets)#
+data(mtcars)
+mtcars
+?sapply
+?split
+sapply(split(mtcars$mpg, mtcars$cyl)
+split(mtcars$mpg, mtcars$cyl)
+apply(split(mtcars$mpg, mtcars$cyl), mean)
+lapply(split(mtcars$mpg, mtcars$cyl), mean)
+sapply(split(mtcars$mpg, mtcars$cyl), mean)
+sapply(mtcars, cyl, mean)
+lapply(mtcars, mean)
+apply(mtcars, 2, mean)
+head(mtcars)
+sapply(split(mtcars$hp, mtcars$cyl), mean)
+abs(209.21429-82.63636)
+debug(ls)
+ls
+ls()
+2
+1
+log(-1)
+demo()
+x<-list(a = 1:5,b=bnorm(10))
+x<-list(a = 1:5,b=rnorm(10))
+x
+do.call(rbind,x)
+class(do.call(rbind,x))
+lapply(x,mean)
+x<-list(a = 1:4,b=rnorm(10),c=rnorm(20,1),d=rnorm(100,5))
+?rnorm
+x
+lapply(x,mean)
+sapply(x,mean)
+do.call(lapply(x,mean))
+do.call(rbind,lapply(x,mean))
+?runif
+runif(1)
+runif(2)
+x<-1:4
+lapply(x,runif)
+lapply(x,runif,min = 0,max=10)
+x<-list(a=matrix(1:4,2,2),b=matrix(1:6,3,2))
+x
+lapply(x,function(elt) elt(,1))
+lapply(x,function(elt) elt[],1])
+lapply(x,function(elt) elt[,1])
+do.call(lapply(x,mean))
+lapply(x,mean)
+pollutantmean <- function(directory, pollutant, id = 1:332) {#
+	 files_list <-list.files(directory,full.name=TRUE)#
+	 dat=do.call(rbind,lapply(files_list[id],read.csv))#
+	 mean(dat[pollutant][,1], na.rm = TRUE)#
+	 }
+x<-matrix(rnorm(200),20,10)
+x
+apply(x,2,mean)
+apply(x,1,mean)
+apply(x,1,sum)
+apply(x,1,lenth)
+apply(x,1,length)
+apply(x,2,length)
+apply(x,2,sum)
+rowsum(x)
+rowSums(x)
+apply(x,1,sum)
+colMeans(x)
+apply(x,2,mean)
+apply(x,1,quantile,probs = c(0.25,0.75))
+a<-array(rnorm(2*2*10),c(2,2,10))
+a
+apply(a,(c(1,2),mean)
+apply(a,c(1,2),mean)
+rep(1,4)
+list(rep(1,4),rep(2,3),rep(3,2),rep(4,1))
+x<-c(rnorm(10),runif(10),rnorm(10,1))
+x
+str(x)
+?gl
+gl(3,10)
+tapply(x,f,mean)
+f<-gl(3,10)
+tapply(x,f,mean)
+tapply(x,f,mean,simplify=FALSE)
+CLASS(X)
+class(x)
+x
+str(gl(3,10))
+?split
+x
+class(x)
+split(x.f)
+split(x,f)
+library(datasets)
+head(airquality)
+tapply(airquality$Ozone,airquality$Month,mean)
+split(airquality,airquality$Month,)
+split(airquality,airquality$Month)
+lapply(split(airquality,airquality$Month),function(x) colMeans(x[,c("Ozone","Solar.R","Wind")])
+)
+lapply(split(airquality,airquality$Month),function(x) colMeans(complete.cases(x[,c("Ozone","Solar.R","Wind")]))
+)
+lapply(split(airquality,airquality$Month),function(x) colMeans(x[,c("Ozone","Solar.R","Wind")])
+)
+lapply(split(airquality,airquality$Month),function(x) colMeans(x[,c("Ozone","Solar.R","Wind")]))
+lapply(split(airquality,airquality$Month),function(x) complete.cases(colMeans(x[,c("Ozone","Solar.R","Wind")])))
+lapply(split(airquality,airquality$Month),function(x) colMeans(x[,c("Ozone","Solar.R","Wind")],na.rm=true)))
+lapply(split(airquality,airquality$Month),function(x) colMeans(x[,c("Ozone","Solar.R","Wind")],na.rm=TRUE)))
+lapply(split(airquality,airquality$Month),function(x) colMeans(x[,c("Ozone","Solar.R","Wind")],na.rm=TRUE))
+Sapply(split(airquality,airquality$Month),function(x) colMeans(x[,c("Ozone","Solar.R","Wind")],na.rm=TRUE))
+sapply(split(airquality,airquality$Month),function(x) colMeans(x[,c("Ozone","Solar.R","Wind")],na.rm=TRUE))
+x<-rnorm(10)
+x
+f1<-gl(2,5)
+f2<-gl(5,2)
+f1
+f2
+interaction(f1,f2)
+?interaction
+split(x,list(f1,f2))
+x
+str(split(x,list(f1,f2)))
+y<-(x=rnorm(10),f1=gl(2,5),f2=gl(5,2))
+y<-data.frame(x=rnorm(10),f1=gl(2,5),f2=gl(5,2))
+y
+split(y$z,c(y$f1,y$f2))
+split(y,c(y$f1,y$f2))
+str(split(y,c(y$f1,y$f2)))
+str(split(y,y$f1,y$f2)
+str(split(y,y$f1,y$f2))
+str(split(y,list(y$f1,y$f2)))
+split(y,list(y$f1,y$f2))
+do.call(rbind,split(y,list(y$f1,y$f2)))
+do.call(rbind,split(y$x,list(y$f1,y$f2)))
+split(y$x,list(y$f1,y$f2))
+ptintmessage <-functionx(x) {}
+ptintmessage <-functionx(x) {
+ptintmessage <-function(x) {
+if(x>0) print("x>0") else print("x<0")
+invisible(x)
+}
+ptintmessage(10)
+ptintmessage(-10)
+ptintmessage(NA)
+ptintmessage2 <-function(x) {#
++ if(x>0) print("x>0") else print("x<0") #
++ invisible(x)#
++ }
+?traceback
+traceback()
+mean)x
+mean(x)
+mean(y)
+mean(yu)
+traceback()
+log(-10)
+traceback()
+lm(y-x)
+traceback()
+lm(z-x)
+traceback()
+debug(lm)
+lm(z-x)
+n
+recover
+n
+exit
+help
+q
+Q
+options(error=recover)
+read.csv("nosuchfile")
+library(datasets)#
+data(mtcars)
+tapply(mtcars$mpg, mtcars$cyl, mean)
+source("cacheMatrix.R")
+someMatrix <- matrix(rnorm(25), 5, 5);
+cacheMatrix <- makeCacheMatrix(someMatrix);
+inverseMatrix <- cacheSolve(cacheMatrix);
+inverseMatrix
+source("cacheMatrix.R")
+source("cacheMatrix.R")
+someMatrix <- matrix(rnorm(25), 5, 5);
+cacheMatrix <- makeCacheMatrix(someMatrix);
+inverseMatrix <- cacheSolve(cacheMatrix);
+inverseMatrix
+source("cachematrix.R")
+inverseMatrix
+someMatrix <- matrix(rnorm(25), 5, 5);
+inverseMatrix <- cacheSolve(cacheMatrix);
+cacheMatrix <- makeCacheMatrix(someMatrix);
+inverseMatrix <- cacheSolve(cacheMatrix);
+inverseMatrix <- cacheSolve(cacheMatrix);
+source("cachematrix.R")
+mat<-matrix(c(1,0,5,2,1,6,5,4,0),nrow = 3, ncol = 3)
+print(mat)
+matrixx<-makeCacheMatrix(mat)
+matrixx$get()
+inverseMatrix <- cacheSolve(matrixx);
+inverseMatrix <- cacheSolve(matrixx);
+inverseMatrix <- cacheSolve(matrixx);
+source("cachematrix.R")
+inverseMatrix <- cacheSolve(matrixx);
+x<- c(1,2,3,4,5)#
+a <- makeVector(x)#
+m<- cachmean(a)
+mat <- matrix(c(1,0,5,2,1,6,3,4,0),nrow = 3,ncol = 3)
+print(mat)
+matrixx <- makeCacheMatrix(mat)
+matrixx$get()
+matrixx$getinverse()
+cacheSolve(matrixx)
+cacheSolve(matrixx)
